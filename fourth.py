@@ -15,3 +15,7 @@ def lucky(num):
 
 
 print(lucky(input()))
+
+# ИЛИ
+#
+# print((lambda x: sum([int(i) for i in x[:len(x)//2]]) == sum([int (i) for i in x[len(x)//2:]]))(input()))
